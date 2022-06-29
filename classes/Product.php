@@ -5,11 +5,11 @@
         public $quantity;
         public $animalType;
 
-        public function __construct(string $name, int $price, int $quantity, string $animalType) {
-            $this->name = $name;
-            $this->price = $price;
-            $this->quantity = $quantity;
-            $this->animalType = $animalType;
+        public function __construct(string $_name, float $_price, int $_quantity, string $_animalType = "") {
+            $this->name = $_name;
+            $this->price = $_price;
+            $this->quantity = $_quantity;
+            $this->animalType = $_animalType;
         }
     }
 ?>
